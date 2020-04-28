@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="springcloud.outh2.project.web.mapper.UserRoleMapper">
+  
+  <resultMap id="BaseResultMap" type="springcloud.outh2.project.web.entity.UserRole">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="role_id" jdbcType="BIGINT" property="roleId" />
+  </resultMap>
+  
+  <sql id="Base_Column_List">
+    id, user_id, role_id
+  </sql>
+  
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_role
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from user_role
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  
+  <insert id="insert" parameterType="springcloud.outh2.project.web.entity.UserRole">
+    insert into user_role (id, user_id, role_id
+      )
+    values (#{id,jdbcType=BIGINT}, #{userId,jdbcType=BIGINT}, #{roleId,jdbcType=BIGINT}
+      )
+  </insert>
+  
+  <insert id="insertSelective" parameterType="springcloud.outh2.project.web.entity.UserRole">
+    insert into user_role
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="roleId != null">
+        role_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="roleId != null">
+        #{roleId,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  
+  <update id="updateByPrimaryKeySelective" parameterType="springcloud.outh2.project.web.entity.UserRole">
+    update user_role
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="roleId != null">
+        role_id = #{roleId,jdbcType=BIGINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  
+  <update id="updateByPrimaryKey" parameterType="springcloud.outh2.project.web.entity.UserRole">
+    update user_role
+    set user_id = #{userId,jdbcType=BIGINT},
+      role_id = #{roleId,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  
+  <select id="count" resultType="java.lang.Integer">
+    SELECT COUNT(1) FROM user_role WHERE 1=1 
+    <if test="entity.id != null and entity.id != ''">
+       AND id = #{entity.id,jdbcType=BIGINT}
+    </if>
+    <if test="entity.userId != null and entity.userId != ''">
+       AND user_id = #{entity.userId,jdbcType=BIGINT}
+    </if>
+    <if test="entity.roleId != null and entity.roleId != ''">
+       AND role_id = #{entity.roleId,jdbcType=BIGINT}
+    </if>
+  </select>
+  
+  <select id="page" resultMap="BaseResultMap">
+    SELECT 
+    <include refid="Base_Column_List" />
+    FROM user_role WHERE 1=1 
+    <if test="entity.id != null and entity.id != ''">
+       AND id = #{entity.id,jdbcType=BIGINT}
+    </if>
+    <if test="entity.userId != null and entity.userId != ''">
+       AND user_id = #{entity.userId,jdbcType=BIGINT}
+    </if>
+    <if test="entity.roleId != null and entity.roleId != ''">
+       AND role_id = #{entity.roleId,jdbcType=BIGINT}
+    </if>
+    <if test="paging !=null and paging.offset >= 0 and paging.pageSize > 0">
+       limit ${paging.offset}, ${paging.pageSize} 
+    </if>
+  </select>
+</mapper>

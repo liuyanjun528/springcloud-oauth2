@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-eureka" />
+        <module name="springcloud-outh2-common" />
+        <module name="springcloud-outh2-gateway" />
+        <module name="springcloud-outh2-order" />
+        <module name="springcloud-outh2-web-common" />
+        <module name="springcloudouth2uaa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-eureka" target="1.8" />
+      <module name="springcloud-outh2" target="1.8" />
+      <module name="springcloud-outh2-common" target="1.8" />
+      <module name="springcloud-outh2-gateway" target="1.8" />
+      <module name="springcloud-outh2-order" target="1.8" />
+      <module name="springcloud-outh2-web-common" target="1.8" />
+      <module name="springcloudouth2uaa" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
