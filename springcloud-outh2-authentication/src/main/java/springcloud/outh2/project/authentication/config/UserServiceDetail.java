@@ -59,6 +59,7 @@ public class UserServiceDetail implements UserDetailsService {
             Role role = roleMapper.selectByPrimaryKey(page.get(i).getRoleId());
             grantedAuthorities.add(role);
         }
+        System.out.println("============================>");
         SecurityUser securityUser = new SecurityUser(username, user.getPassword(), grantedAuthorities);
         return securityUser;
     }

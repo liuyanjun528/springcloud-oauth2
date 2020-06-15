@@ -59,10 +59,9 @@ public class ResouceServerConfig extends ResourceServerConfigurerAdapter {
                 //本地swagger测试，放开拦截，便于测试，线上在做拦截
                 .antMatchers("/order").permitAll()
                 .antMatchers("/**").authenticated()
-                .and()//解决跨域
-                .cors()
-                .and()
-                .csrf().disable();
+                .and()//解决跨域必须配置，否则前端报跨域错误
+                .cors();
+
     }
 
 

@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-outh2-authentication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-outh2-authentication/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-outh2-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-outh2-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-outh2-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-outh2-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-outh2-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-outh2-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-outh2-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-outh2-order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-outh2-web-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-outh2-web-common/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

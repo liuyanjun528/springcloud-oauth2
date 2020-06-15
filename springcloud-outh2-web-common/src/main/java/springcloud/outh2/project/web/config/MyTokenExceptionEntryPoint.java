@@ -13,7 +13,7 @@ import java.io.IOException;
 
 /**
  * @author Sir_小三
- * 资源服务器会检查请求头里面是否带上了token，并去认证服务器校验这个token是否合法，是否过期
+ * 资源服务器会检查请求头里面是否带上了token，并去认证服务器校验这个token是否合法，是否过期，有以上这几种情况抛出自定义异常
  * @Description 无效Token返回处理器, 或者不带token处理
  * @date 2020/2/20--14:01
  */
