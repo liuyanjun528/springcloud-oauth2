@@ -400,12 +400,12 @@ public abstract class StringUtils {
         return null;
     }
 
-    public static void main(String[] args) {
-        Map<String, String> map = new HashMap<>();
-        map.put("松江区", "12333");
-        map.put("上海市", "1222");
-        map.put("北京市", "12");
-        Map mm = parseMapForFilter(map, "贵阳");
-        System.out.println(mm.values().iterator().next());
-    }
+//    public static void main(String[] args) {
+//        Map<String, String> map = new HashMap<>();
+//        map.put("松江区", "12333");
+//        map.put("上海市", "1222");
+//        map.put("北京市", "12");
+//        Map mm = parseMapForFilter(map, "贵阳");
+//        System.out.println(mm.values().iterator().next());
+//    }
 }

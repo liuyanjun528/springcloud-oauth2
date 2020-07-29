@@ -33,10 +33,6 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
     private AuthenticationManager authenticationManager;
     @Autowired
     private TokenStore tokenStore;
-    //授权码模式
-//    @Autowired
-//    private AuthorizationCodeServices authorizationCodeServices;
-
     @Autowired
     private JwtAccessTokenConverter jwtAccessTokenConverter;
 
