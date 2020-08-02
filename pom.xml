@@ -9,6 +9,7 @@
         <module>springcloud-outh2-gateway</module>
         <module>springcloud-outh2-common</module>
         <module>springcloud-outh2-web-common</module>
+        <module>springcloud-outh2-amqp-consumer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,4 +1,6 @@
 springcloud\outh2\project\authentication\config\SecurityConfig.class
 springcloud\outh2\project\authentication\config\UserServiceDetail.class
+springcloud\outh2\project\authentication\service\LoginService.class
+springcloud\outh2\project\authentication\controller\LoginController.class
 springcloud\outh2\project\AuthenticationApplication.class
 springcloud\outh2\project\authentication\config\AuthorizationServer.class

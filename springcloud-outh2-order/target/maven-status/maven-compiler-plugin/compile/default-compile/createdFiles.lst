@@ -1,3 +1,8 @@
-springcloud\outh2\project\order\config\ResouceServerConfig.class
+springcloud\outh2\project\entity\Order.class
+springcloud\outh2\project\order\controller\RabbitMQController$1.class
 springcloud\outh2\project\order\controller\OrderController.class
 springcloud\outh2\project\OrderApplication.class
+springcloud\outh2\project\order\controller\RabbitMQController.class
+springcloud\outh2\project\order\controller\RabbitMQController$2.class
+springcloud\outh2\project\order\config\ResouceServerConfig.class
+springcloud\outh2\project\order\config\SecurityConfig.class

@@ -18,7 +18,7 @@ import java.util.ArrayList;
  */
 @RestController
 public class OrderController {
-    @PostMapping("/order")
+    @GetMapping("/order")
     public String order() {
         return "我是订单接口";
     }

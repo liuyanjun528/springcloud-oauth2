@@ -15,8 +15,11 @@ E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\ou
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\UUIDUtils.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\GeoHashUtils.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\page\PagingResult.java
+E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\node\ForestNodeManager.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\generator\CommentExtGenerator.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\Tools.java
+E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\node\BaseNode.java
+E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\node\ForestNodeMerger.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\BufferedImageLuminanceSource.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\PdfHeaderFooter.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\AESUtils.java
@@ -36,7 +39,9 @@ E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\ou
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\em\EnableDisableEnum.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\AmountUtils.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\FastCodeUtils.java
+E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\node\TreeNode.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\CollectionUtils.java
+E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\node\INode.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\em\FastEnum.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\result\ResponseUtils.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\DateUtils.java
@@ -46,6 +51,7 @@ E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\ou
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\page\FastPaging.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\result\ExceptionUtils.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\RSAKeyUtils.java
+E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\node\ForestNode.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\QRCodeUtils.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\ParseHtml.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-common\src\main\java\springcloud\outh2\project\common\utils\ExcelUtils.java

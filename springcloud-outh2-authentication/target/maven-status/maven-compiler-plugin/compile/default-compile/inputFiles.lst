@@ -1,4 +1,6 @@
 E:\yd-dp\springcloud-outh2\springcloud-outh2-authentication\src\main\java\springcloud\outh2\project\AuthenticationApplication.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-authentication\src\main\java\springcloud\outh2\project\authentication\config\AuthorizationServer.java
+E:\yd-dp\springcloud-outh2\springcloud-outh2-authentication\src\main\java\springcloud\outh2\project\authentication\controller\LoginController.java
+E:\yd-dp\springcloud-outh2\springcloud-outh2-authentication\src\main\java\springcloud\outh2\project\authentication\service\LoginService.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-authentication\src\main\java\springcloud\outh2\project\authentication\config\UserServiceDetail.java
 E:\yd-dp\springcloud-outh2\springcloud-outh2-authentication\src\main\java\springcloud\outh2\project\authentication\config\SecurityConfig.java

@@ -1,4 +1,4 @@
-package springcloud.outh2.project.order.config;
+package springcloud.outh2.project.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -54,11 +54,11 @@ public class ResouceServerConfig extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.csrf().disable().authorizeRequests()
-                //.antMatchers("/user/**").permitAll()
+                .antMatchers("/test/**").permitAll()
                 //.antMatchers("/financing//get/uUnit").permitAll()
                 //本地swagger测试，放开拦截，便于测试，线上在做拦截
                 .antMatchers("/order").permitAll()
-                .antMatchers("/rabbitMQ/**").permitAll()
+                .antMatchers("/rabbitMQ").permitAll()
                 .antMatchers("/**").authenticated()
                 .and()//解决跨域必须配置，否则前端报跨域错误
                 .cors();
